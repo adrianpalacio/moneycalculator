@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Money {
+package software.ulpgc.moneycalculator.model;
+
+public record Money(long amount, Currency currency) {
 }
